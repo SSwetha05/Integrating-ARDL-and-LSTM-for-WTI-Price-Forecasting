@@ -15,5 +15,3 @@ Thumbs.db
 # Environment variables (if you use them)
 .env
 
-#lstm model
-lstm_wti_monthly.h5
