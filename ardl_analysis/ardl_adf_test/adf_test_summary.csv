@@ -1,0 +1,8 @@
+﻿ADF TEST SUMMARY,,,,,,,
+,At Level,,,,,,
+,ADF Statistics,wti,brent,gld,epu,kol,usdinr
+With Constant,t-statistic,-1.7389,-1.494328,-1.264499,-4.633346,-3.364943,-1.514204
+,prob.,0.4073,0.5304,0.6413,0.0003,0.0158,0.5204
+,At 1st Difference,,,,,,
+With Constant,t-statistic,-7.864263,-7.679734,-7.003698,-7.495982,-6.48241,-8.069735
+,prob.,0,0,0,0,0,0
