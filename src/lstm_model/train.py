@@ -58,7 +58,7 @@ def main():
     np.save("data/processed/X_test.npy", X_test)
     np.save("data/processed/y_test.npy", y_test)
     np.save("data/processed/test_dates.npy", test_dates)
-    last_sequence = X_seq[-1]  # or X_seq[-1] if you want the very last input sequence
+    last_sequence = X_seq[-1]  
     np.save("data/processed/last_sequence.npy", last_sequence)
 
 if __name__ == "__main__":

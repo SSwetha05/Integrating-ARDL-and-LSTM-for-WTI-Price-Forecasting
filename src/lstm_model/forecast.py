@@ -10,7 +10,7 @@ def forecast_future(model_path, last_sequence, n_future_months, scaler_y):
     Generate future WTI forecasts using the trained LSTM model.
     
     Parameters:
-    - model_path : path to saved LSTM model (.h5)
+    - model_path : path to saved LSTM model 
     - last_sequence : 3D array (1 × lookback × features)
     - n_future_months : int, number of months to predict
     - scaler_y : fitted scaler for inverse-transforming predictions
