@@ -7,13 +7,17 @@ The ARDL model is used to capture the short-run and long-run equilibrium relatio
   Contains all econometric analysis conducted in EViews, including unit root tests,
   ARDL bounds testing, error correction model estimation, and model stability diagnostics.
   The folder also includes a written interpretation of the results.
+  
 *data* 
   Raw and processed datasets used for both ARDL and LSTM analysis.
+  
 *models* 
   Trained LSTM model and associated scalers used for normalization and inverse transformation.
+  
 *src/lstm_model*  
   Modular Python implementation of the LSTM forecasting pipeline, including data preprocessing,
   feature engineering, model training, evaluation, and multi-step forecasting.
+  
 *lstm_interpretation.md* 
   Interpretation of LSTM model performance, forecasting results, and limitations.
 
