@@ -1,7 +1,3 @@
-**Research Question**
-1. Do macroeconomic and commodity market variables exhibit a stable long-run cointegrated relationship with WTI crude oil prices, and what are their short-run dynamics?
-2. Can a data-driven LSTM model, incorporating broader financial and macroeconomic indicators, effectively forecast short-term movements in WTI crude oil prices?
-
 **Why ARDL + LSTM**
 This study employs a hybrid modelling framework combining an Autoregressive Distributed Lag (ARDL) model and a Long Short-Term Memory (LSTM) neural network to forecast crude oil prices. 
 The ARDL model is used to capture the short-run and long-run equilibrium relationships between crude oil prices and key macroeconomic and commodity variables, while the LSTM model is applied to capture complex, non-linear, and temporal dependencies that traditional econometric models may not fully account for.
@@ -23,6 +19,5 @@ The ARDL model is used to capture the short-run and long-run equilibrium relatio
 
 **Conclusion**
 The ARDL model offered a theoretical basis for exploring the short-term and long-term relationships between crude oil pricing and macroeconomic variables, but it is not primarily designed for multi-step forecasting. 
-Therefore, once cointegration from  the ARDL model was confirmed, the LSTM model was created by including additional variables such as Copper, S&P 500 Index, US CPI, and US 10-Year Treasury Yield. 
-This was done to implement an effective method to forecast crude oil prices. 
-The objective to utilize LSTM to provide predictive ability from a practical perspective to build upon the theoretical explanation provided by ARDL was fulfilled.
+The LSTM model complemented the econometric insights of the ARDL analysis by capturing non-linear and temporal patterns, enabling effective short-term and multi-step forecasting of crude oil prices. 
+Overall, the hybrid ARDL–LSTM framework successfully integrates economic theory with data-driven prediction, fulfilling the study’s objective of combining interpretability with practical forecasting performance.
